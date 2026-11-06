@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembuatan Konten Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            padding: 15px 5%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #444;
+            font-size: 26px;
+            margin-bottom: 14px;
+        }
+
+        .container {
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            padding: 15px 9%;
+        }
+
+        /* Newsletter */
+        .newsletter {
+            margin-bottom: 20px;
+        }
+
+        .newsletter h4 {
+            font-size: 13px;
+            margin-bottom: 8px;
+            color: #222;
+        }
+
+        .newsletter input {
+            padding: 7px;
+            width: 180px;
+            font-size: 11px;
+            border: 1px solid #ccc;
+        }
+
+        .newsletter button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 14px;
+            font-size: 11px;
+            cursor: pointer;
+        }
+
+        /* Konten Vertikal */
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 25px;
+        }
+
+        .card {
+            width: 100%;
+            padding: 10px;
+        }
+
+        /* Logo */
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .card h4 {
+            color: blue;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 13px;
+            color: #333;
+            line-height: 1.7;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 21px;
+            }
+
+            .newsletter input {
+                width: 65%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Judul Website -->
+    <h1>Konten Website</h1>
+
+    <div class="container">
+
+        <!-- Newsletter -->
+        <div class="newsletter">
+
+            <h4>Subscribe To Our Newsletter</h4>
+
+            <input type="email"
+                   placeholder="Enter Email...">
+
+            <button>Subscribe</button>
+
+        </div>
+
+        <!-- Konten Website -->
+        <div class="content">
+
+            <!-- HTML5 -->
+            <div class="card">
+
+                <div class="icon">
+                    <svg viewBox="0 0 50 55"
+                         width="55" height="60">
+
+                        <path fill="#E44D26"
+                        d="M4 2H46L42 48L25 54L8 48Z"/>
+
+                        <path fill="#F16529"
+                        d="M25 6H42L39 45L25 49Z"/>
+
+                        <path fill="white"
+                        d="M13 11H38L37 17H19L20 22H36L34 40L25 44L16 40L15 32H21L22 36L25 38L29 36L30 27H14Z"/>
+
+                    </svg>
+                </div>
+
+                <h4>HTML5 Markup</h4>
+
+                <p>
+                    HTML5 merupakan bahasa markup yang digunakan
+                    untuk membuat struktur halaman website.
+                    HTML berfungsi menyusun berbagai elemen seperti
+                    judul, paragraf, gambar, tautan, tabel, dan
+                    formulir agar informasi dapat ditampilkan
+                    dengan teratur.
+                </p>
+
+            </div>
+
+            <!-- CSS3 -->
+            <div class="card">
+
+                <div class="icon">
+                    <svg viewBox="0 0 50 55"
+                         width="55" height="60">
+
+                        <path fill="#264DE4"
+                        d="M4 2H46L42 48L25 54L8 48Z"/>
+
+                        <path fill="#2965F1"
+                        d="M25 6H42L39 45L25 49Z"/>
+
+                        <path fill="white"
+                        d="M13 11H38L37 17H19L20 22H36L34 40L25 44L16 40L15 32H21L22 36L25 38L29 36L30 27H14Z"/>
+
+                    </svg>
+                </div>
+
+                <h4>CSS3 Styling</h4>
+
+                <p>
+                    CSS3 digunakan untuk mengatur tampilan dan
+                    desain website. Dengan CSS, kita dapat
+                    mengatur warna, ukuran tulisan, jarak,
+                    tata letak, background, serta membuat
+                    tampilan website menjadi lebih menarik
+                    dan responsif.
+                </p>
+
+            </div>
+
+            <!-- Graphic Design -->
+            <div class="card">
+
+                <div class="icon">
+                    <svg viewBox="0 0 60 55"
+                         width="60" height="55">
+
+                        <rect x="5" y="5"
+                        width="43" height="31"
+                        fill="none"
+                        stroke="#111"
+                        stroke-width="3"/>
+
+                        <path d="M26 36V43"
+                        stroke="#111"
+                        stroke-width="3"/>
+
+                        <path d="M1 43H53"
+                        stroke="#111"
+                        stroke-width="3"/>
+
+                        <path d="M23 32L29 21L48 3L54 9L36 27Z"
+                        fill="#111"/>
+
+                        <path d="M23 32L29 21L31 29Z"
+                        fill="#777"/>
+
+                    </svg>
+                </div>
+
+                <h4>Graphic Design</h4>
+
+                <p>
+                    Graphic Design merupakan proses pembuatan
+                    elemen visual untuk menyampaikan informasi
+                    secara menarik. Desain grafis dapat berupa
+                    ikon, ilustrasi, logo, gambar, dan kombinasi
+                    warna yang membantu meningkatkan tampilan
+                    serta pengalaman pengguna website.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
